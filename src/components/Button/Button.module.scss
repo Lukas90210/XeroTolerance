@@ -1,0 +1,15 @@
+.form__button {
+    font-size: 14px;
+    text-decoration: none;
+    padding: 7px 12px;
+    font-weight: 500;
+    background: none;
+    border: 2px solid olive;
+    color: olive;
+    transition: all .3s;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-2.5px);
+    }
+}
+
